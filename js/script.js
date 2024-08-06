@@ -1,5 +1,5 @@
 // const apikey = import.meta.env.VITE_API_KEY;
-const apikey = a6252b5d;
+const apikey = "a6252b5d";
 
 const btnListener = document.getElementById("btnSearch");
 btnListener.addEventListener("click", () => {
