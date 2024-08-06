@@ -5,7 +5,7 @@ const btnListener = document.getElementById("btnSearch");
 btnListener.addEventListener("click", () => {
   const movieNameToSearch = document.getElementById("searchMovie").value;
   console.log(movieNameToSearch);
-  fetch(`http://www.omdbapi.com/?apikey=${apikey}&t=${movieNameToSearch}`)
+  fetch(`https://www.omdbapi.com/?apikey=${apikey}&t=${movieNameToSearch}`)
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
